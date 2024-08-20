@@ -1,4 +1,5 @@
 import logo from "../../assets/icon/IconRatings.svg";
+import "./styles.css";
 
 const Header: React.FC = () => {
   return (

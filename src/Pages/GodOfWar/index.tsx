@@ -1,7 +1,9 @@
+import Header from "../../Components/Header";
+
 const GodOfWar: React.FC = () => {
   return (
     <>
-      {/*Header*/}
+      <Header />
       {/*Content*/}
       {/**/}
     </>
