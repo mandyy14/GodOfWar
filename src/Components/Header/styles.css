@@ -3,7 +3,57 @@
   padding: 0;
 }
 
+/*-------MENU-------*/
+
+/*header*/
 header {
   background: #0e1015;
   height: 100px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  padding: 14px 30px;
+}
+
+.menu-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.menu-text {
+  font-family: "Krona One";
+  color: white;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.search-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  background-color: #1b1d23;
+  width: 600px;
+  height: 56px;
+  border-radius: 8px;
+}
+
+.search-logo {
+  margin-left: 30px;
+}
+
+.search-text {
+  color: #787b81;
+  font-family: "Karla";
+  font-size: 20px;
+  margin-left: 20px;
 }
