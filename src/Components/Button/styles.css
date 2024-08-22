@@ -1,0 +1,12 @@
+button {
+  width: 210px;
+  height: 57px;
+  border-radius: 8px;
+  margin-left: 60px;
+  background-color: #d5224e;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-family: "Krona One";
+}
