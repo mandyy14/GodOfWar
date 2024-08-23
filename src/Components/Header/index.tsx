@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           <img src={logo} alt="Logo Ratings" className="header-logo" />
           <div className="menu-container">
             <img src={Menu} alt="Menu" />
-            <div className="menu-text">Menu</div>
+            <div className="menu-text">MENU</div>
             <div className="search-field">
               <img
                 src={Search}

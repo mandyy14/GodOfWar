@@ -1,0 +1,62 @@
+.image-container {
+  position: relative;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.767);
+  z-index: 1;
+}
+
+.image-black-overlay {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+}
+
+.text-overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 30px;
+  left: 20px;
+  color: white;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.title-image {
+  font-size: 32px;
+}
+
+.subtitle-image {
+  font-size: 16px;
+  margin-left: 202px;
+}
+
+.align-pictures {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 110px;
+  color: white;
+  margin-left: 40px;
+  z-index: 1;
+  gap: 10px;
+}
+
+.picture {
+  height: auto;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-description {
+  margin-left: 200px;
+}
+
+.evaluation-description {
+  margin-left: 200px;
+}
