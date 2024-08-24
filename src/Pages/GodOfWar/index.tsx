@@ -25,7 +25,7 @@ const GodOfWar: React.FC = () => {
             <div className="align">
               <div className="subtitle-image">AVALIAÇÃO DA RATINGS</div>
               <img src={Star} alt="estrela" />
-              <div className="rating-description">9,6</div>
+              <div className="rating-description">9,6/10</div>
             </div>
             <div className="align">
               <div className="subtitle-image">SUA AVALIAÇÃO</div>

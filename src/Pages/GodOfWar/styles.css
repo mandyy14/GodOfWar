@@ -19,17 +19,31 @@
   top: 30px;
   left: 20px;
   color: white;
-  margin-left: 20px;
   z-index: 1;
 }
 
 .title-image {
   font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 220px;
+  margin-bottom: 10px;
 }
 
 .subtitle-image {
   font-size: 16px;
-  margin-left: 202px;
+  margin-right: 10px; /* Espaço entre o texto e o ícone */
+}
+
+.rating-description,
+.evaluation-description {
+  font-size: 16px;
+  margin-left: 10px; /* Espaço entre o ícone e o texto */
 }
 
 .align-pictures {
@@ -45,18 +59,4 @@
 
 .picture {
   height: 80vh;
-}
-
-.align {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.rating-description {
-  margin-left: 200px;
-}
-
-.evaluation-description {
-  margin-left: 200px;
 }

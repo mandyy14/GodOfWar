@@ -24,39 +24,53 @@
 
 .container-rating {
   width: 94vw;
-  height: 366px;
   background-color: #1c171d;
   border-radius: 8px;
   margin-left: 30px;
   margin-bottom: 40px;
   z-index: 1;
+  padding: 20px;
+  position: relative;
+}
+
+.header-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .rating {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 341px;
-  height: 32px;
   background-color: #d5224e;
   color: white;
   border-radius: 8px 8px 22px;
-  margin: 30px;
-  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.align-tinys {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .tiny-title {
   color: #d5224e;
   font-family: "Karla";
-  margin-left: 50px;
   margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.tiny-titlegray {
+  font-family: "Karla";
+  color: #787b81;
+  margin-right: 30px;
 }
 
 .incredible {
   color: white;
   font-size: 20px;
-  margin-left: 30px;
 }
 
 .text {
@@ -64,24 +78,22 @@
   font-family: "Karla";
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 30px;
 }
 
 .container-rating1 {
   width: 94vw;
-  height: 253px;
   background-color: #1c171d;
   border-radius: 8px;
   margin-left: 30px;
   margin-bottom: 40px;
   z-index: 1;
+  padding: 20px;
 }
 
 .spoiler {
   width: 90vw;
   height: 39px;
   margin-top: 20px;
-  margin-left: 30px;
   background-color: #0e1015;
   color: #ff003f;
   display: flex;
@@ -96,16 +108,42 @@
   align-items: center;
   margin-bottom: 40px;
   color: #ff003f;
-  margin-left: 1030px;
+  margin-left: 69%;
 }
 
 .number {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.number-1 {
+  color: #787b81;
 }
 
 .star {
-  justify-content: center;
+  margin-right: 8px;
+}
+
+.voting {
+  color: white;
+}
+
+.voting-align {
+  display: flex;
   align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dislike-align {
+  display: flex;
+  gap: 10px;
+  margin-left: 80px;
+}
+
+.align-options {
+  display: flex;
+  margin-left: 82%;
 }
