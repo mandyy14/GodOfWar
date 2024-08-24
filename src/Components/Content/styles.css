@@ -23,10 +23,89 @@
 }
 
 .container-rating {
-  width: 1240px;
+  width: 94vw;
   height: 366px;
   background-color: #1c171d;
   border-radius: 8px;
   margin-left: 30px;
+  margin-bottom: 40px;
   z-index: 1;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 341px;
+  height: 32px;
+  background-color: #d5224e;
+  color: white;
+  border-radius: 8px 8px 22px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+.tiny-title {
+  color: #d5224e;
+  font-family: "Karla";
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.incredible {
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.text {
+  color: white;
+  font-family: "Karla";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.container-rating1 {
+  width: 94vw;
+  height: 253px;
+  background-color: #1c171d;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+
+.spoiler {
+  width: 90vw;
+  height: 39px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: #0e1015;
+  color: #ff003f;
+  display: flex;
+  padding: 10px;
+  font-family: "Karla";
+  border-radius: 8px;
+}
+
+.align-A {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 40px;
+  color: #ff003f;
+  margin-left: 1030px;
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.star {
+  justify-content: center;
+  align-items: center;
 }
